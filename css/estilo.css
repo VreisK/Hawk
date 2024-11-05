@@ -1,3 +1,150 @@
+.hide-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hide-mobile {
+    display: block;
+  }
+  
+  .hide-desktop {
+    display: none;
+  }
+}
+
+.text-center-mobile {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .text-center-mobile {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .texto-principal {
+    font-size: 32px;
+    margin: 30px 20px;
+  }
+
+  .texto-principal2 {
+    font-size: 32px;
+    margin: 150px 20px 1px 20px;
+  }
+
+  .subtexto-principal {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  .subtexto2 {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .row {
+    margin: 25px;
+  }
+
+  .col-sm {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #box3 {
+    margin: 25px 10px;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  #box3 h2 {
+    font-size: 32px;
+    margin: 15px;
+  }
+
+  .subtexto4 h2 {
+    font-size: 42px;
+  }
+
+  .subtexto3 h3 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 16px;
+  }
+
+  .texto-principal, 
+  .texto-principal2 {
+    font-size: 28px;
+  }
+
+  #btnk {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .col-sm h2 {
+    margin-top: 3rem;
+    font-size: 24px;
+  }
+
+  .col-sm p {
+    font-size: 16px;
+  }
+}
+
+
+.container-sm {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#btnk {
+  width: 90%;
+  max-width: 400px;
+  white-space: normal;
+}
+
+
+body {
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-sm {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .col-sm {
+    flex: 0 0 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+  }
+}
 #btnk{
   background-color: black;
   color: white;
