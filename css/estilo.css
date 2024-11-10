@@ -425,3 +425,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #890303; 
 }
+
+a {
+  text-decoration: none;
+}
