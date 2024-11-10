@@ -161,9 +161,11 @@ body {
   transition: border 0.3s ease;
   margin-bottom: 5px;
   inset: 5px;
+  transition: box-shadow 0.7s ease;
 }
 #btnk:hover{
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.705);
 }
 .btn2{
   margin-bottom: 200px;
@@ -429,3 +431,7 @@ body {
 a {
   text-decoration: none;
 }
+ #lastbotao{
+  margin-top: -5px;
+  margin-bottom: 150px;
+ }
